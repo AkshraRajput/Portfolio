@@ -9,16 +9,10 @@ function handleSubmit(e){
     };
 
     let formdata = JSON.parse(localStorage.getItem("form_data")) || [];
-
     formdata.push(data);
-
     localStorage.setItem("form_data", JSON.stringify(formdata));
-
-    console.log(formdata);
-
+    console.log("All submissions:", formdata); 
     alert("Form Submitted : Thank you for connecting with me !!!!");
-
     e.target.reset();
-
-    return false; 
-}
+    return false;
+}g
