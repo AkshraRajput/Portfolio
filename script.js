@@ -14,7 +14,7 @@ function handleSubmit(e){
 
     localStorage.setItem("form_data", JSON.stringify(formdata));
 
-    console.log(data);
+    console.log(formdata);
 
     alert("Form Submitted : Thank you for connecting with me !!!!");
 
