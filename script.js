@@ -12,7 +12,7 @@ function handleSubmit(e){
     formdata.push(data);
     localStorage.setItem("form_data", JSON.stringify(formdata));
     console.log("All submissions:", formdata); 
-    alert("Form Submitted : Thank you for connecting with me !!!!");
+    alert("Form Submitted : Thank you for connecting with me 🫶🏻 !!!!");
     e.target.reset();
     return false;
 }
