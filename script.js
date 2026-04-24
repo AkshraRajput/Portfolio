@@ -1,5 +1,3 @@
-let form = document.getElementById("form");
-
 function handleSubmit(e){
     e.preventDefault();
 
@@ -20,7 +18,5 @@ function handleSubmit(e){
 
     alert("Form Submitted : Thank you for connecting with me !!!!");
 
-    form.reset();
+    e.target.reset();
 }
-
-form.addEventListener("submit", handleSubmit);
