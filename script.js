@@ -2,6 +2,7 @@ let form = document.getElementById("form");
 
 function handleSubmit(e){
     e.preventDefault();
+
     let data = {
         fullname: e.target.fullname.value,
         email: e.target.email.value,
@@ -9,16 +10,17 @@ function handleSubmit(e){
         message: e.target.message.value
     };
 
-    const formdata = JSON.parse(localStorage.getItem("form_data")) || [];
+    let formdata = JSON.parse(localStorage.getItem("form_data")) || [];
+
     formdata.push(data);
+
     localStorage.setItem("form_data", JSON.stringify(formdata));
-    form.reset ();
-    console.log(data)
-    const getdata = JSON.parse(localStorage.getItem("form_data"));
-    console.log(getdata)
+
+    console.log(data);
+
+    alert("Form Submitted : Thank you for connecting with me !!!!");
+
+    form.reset();
 }
 
-form.addEventListener("submit", function(e) {
-    handleSubmit(e);
-    alert("Form Submitted : Thank you for connecting with me !!!!");
-});
+form.addEventListener("submit", handleSubmit);
