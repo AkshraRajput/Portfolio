@@ -15,4 +15,4 @@ function handleSubmit(e){
     alert("Form Submitted : Thank you for connecting with me !!!!");
     e.target.reset();
     return false;
-}g
+}
