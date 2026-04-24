@@ -257,9 +257,8 @@ main {
 }
 
 .intro-avatar {
-  flex-shrink: 0;
-  width: 90px;
-  height: 90px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   background: #e8c5c8;
   border: 3px solid #A56A6F;
@@ -282,23 +281,22 @@ main {
 }
 
 .greeting {
-  font-size: 13px;
+  font-size: 16px;
   color: #8a5a5e;
   font-style: italic;
 }
 
 .name {
   font-family: 'Space Mono', monospace;
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 700;
   color: #4A1F24;
-  letter-spacing: 1px;
 }
 
 .role-tag {
   display: inline-block;
   font-family: 'Space Mono', monospace;
-  font-size: 9px;
+  font-size: 12px;
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -311,7 +309,7 @@ main {
 }
 
 .intro-quote {
-  font-size: 13px;
+  font-size: 18px;
   color: #8a5a5e;
   font-style: italic;
   margin-top: 6px;
