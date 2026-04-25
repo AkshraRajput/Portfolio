@@ -16,3 +16,11 @@ function handleSubmit(e){
     e.target.reset();
     return false;
 }
+
+document.getElementById("resume_btn")
+.addEventListener("click", function () {
+    const link = document.createElement("a");
+    link.href = "./resume.pdf";
+    link.download = "Akshra_Rajput_Resume.pdf";
+    link.click();
+});
