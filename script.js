@@ -17,10 +17,10 @@ function handleSubmit(e){
     return false;
 }
 
-document.getElementById("resume_btn")
-.addEventListener("click", function () {
-    const link = document.createElement("a");
-    link.href = "./Akshra_Rajput_Resume.pdf";
-    link.download = "Akshra_Rajput_Resume.pdf";
-    link.click();
-});
+// document.getElementById("resume_btn")
+// .addEventListener("click", function () {
+//     const link = document.createElement("a");
+//     link.href = "./Akshra_Rajput_Resume.pdf";
+//     link.download = "Akshra_Rajput_Resume.pdf";
+//     link.click();
+// });
