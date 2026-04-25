@@ -20,7 +20,7 @@ function handleSubmit(e){
 document.getElementById("resume_btn")
 .addEventListener("click", function () {
     const link = document.createElement("a");
-    link.href = "./Resume.pdf";
+    link.href = "./Akshra_Rajput_Resume.pdf";
     link.download = "Akshra_Rajput_Resume.pdf";
     link.click();
 });
